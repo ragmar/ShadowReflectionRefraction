@@ -2,9 +2,9 @@
 #pragma comment (lib,"lib/freeglut.lib")
 #pragma comment (lib,"lib/AntTweakBar.lib")
 #pragma comment (lib,"lib/glew32.lib")
-#include "./tools/GL/glew.h"
-#include "./tools/GL/freeglut.h"
-#include "./tools/AntTweakBar/AntTweakBar.h"
+#include "../tools/GL/glew.h"
+#include "../tools/GL/freeglut.h"
+#include "../tools/AntTweakBar/AntTweakBar.h"
 #include <vector>
 #include <iostream>
 #include <fstream>
@@ -510,77 +510,77 @@ void FilesToLoad(int Modelo){
 	string archivo="";
 	string archivo_textura="";
 	if(Modelo==0){
-		archivo="./files/Modelos/abajo.obj";
-		archivo_textura="./files/Texturas/Skybox/Bottom.jpg";
+		archivo="./Project/files/Modelos/abajo.obj";
+		archivo_textura="./Project/files/Texturas/Skybox/Bottom.jpg";
 	}else if(Modelo==1){
-		archivo="./files/Modelos/adelante.obj";
-		archivo_textura="./files/Texturas/Skybox/Front.jpg";
+		archivo="./Project/files/Modelos/adelante.obj";
+		archivo_textura="./Project/files/Texturas/Skybox/Front.jpg";
 	}else if(Modelo==2){
-		archivo="./files/Modelos/atras.obj";
-		archivo_textura="./files/Texturas/Skybox/Back.jpg";
+		archivo="./Project/files/Modelos/atras.obj";
+		archivo_textura="./Project/files/Texturas/Skybox/Back.jpg";
 	}else if(Modelo==3){
-		archivo="./files/Modelos/derecha.obj";
-		archivo_textura="./files/Texturas/Skybox/Right.jpg";
+		archivo="./Project/files/Modelos/derecha.obj";
+		archivo_textura="./Project/files/Texturas/Skybox/Right.jpg";
 	}else if(Modelo==4){
-		archivo="./files/Modelos/izquierda.obj";
-		archivo_textura="./files/Texturas/Skybox/Left.jpg";
+		archivo="./Project/files/Modelos/izquierda.obj";
+		archivo_textura="./Project/files/Texturas/Skybox/Left.jpg";
 	}else if(Modelo==5){
-		archivo="./files/Modelos/arriba.obj";
-		archivo_textura="./files/Texturas/Skybox/Up.jpg";
+		archivo="./Project/files/Modelos/arriba.obj";
+		archivo_textura="./Project/files/Texturas/Skybox/Up.jpg";
 	}else if(Modelo==6){
-		archivo="./files/Modelos/techo.obj";
-		archivo_textura="./files/Texturas/techo.jpg";
+		archivo="./Project/files/Modelos/techo.obj";
+		archivo_textura="./Project/files/Texturas/techo.jpg";
 	}else if(Modelo==7){
-		archivo="./files/Modelos/truck.obj";
-		archivo_textura="./files/Texturas/watertruck.bmp";
+		archivo="./Project/files/Modelos/truck.obj";
+		archivo_textura="./Project/files/Texturas/watertruck.bmp";
 	}else if(Modelo==8){
-		archivo="./files/Modelos/columnas.obj";
-		archivo_textura="./files/Texturas/verde.jpg";
+		archivo="./Project/files/Modelos/columnas.obj";
+		archivo_textura="./Project/files/Texturas/verde.jpg";
 	}else if(Modelo==9){
-		archivo="./files/Modelos/borde.obj";
-		archivo_textura="./files/Texturas/borde.jpg";
+		archivo="./Project/files/Modelos/borde.obj";
+		archivo_textura="./Project/files/Texturas/borde.jpg";
 	}else if(Modelo==10){
-		archivo="./files/Modelos/jeep.obj";
-		archivo_textura="./files/Texturas/jeep.jpg";
+		archivo="./Project/files/Modelos/jeep.obj";
+		archivo_textura="./Project/files/Texturas/jeep.jpg";
 	}else if(Modelo==11){
-		archivo="./files/Modelos/thor.obj";
-		archivo_textura="./files/Texturas/thor.jpg";
+		archivo="./Project/files/Modelos/thor.obj";
+		archivo_textura="./Project/files/Texturas/thor.jpg";
 	}else if(Modelo==12){
-		archivo="./files/Modelos/ironman.obj";
-		archivo_textura="./files/Texturas/ironman.jpg";
+		archivo="./Project/files/Modelos/ironman.obj";
+		archivo_textura="./Project/files/Texturas/ironman.jpg";
 	}else if(Modelo==13){
-		archivo="./files/Modelos/oiltank.obj";
-		archivo_textura="./files/Texturas/oiltank.png";
+		archivo="./Project/files/Modelos/oiltank.obj";
+		archivo_textura="./Project/files/Texturas/oiltank.png";
 	}else if(Modelo==14){
-		archivo="./files/Modelos/basura.obj";
-		archivo_textura="./files/Texturas/basura.jpg";
+		archivo="./Project/files/Modelos/basura.obj";
+		archivo_textura="./Project/files/Texturas/basura.jpg";
 	}else if(Modelo==15){
-		archivo="./files/Modelos/barrel.obj";
-		archivo_textura="./files/Texturas/barrel.png";
+		archivo="./Project/files/Modelos/barrel.obj";
+		archivo_textura="./Project/files/Texturas/barrel.png";
 	}else if(Modelo==16){
-		archivo="./files/Modelos/cow.obj";
-		archivo_textura="./files/Texturas/cow.jpg";
+		archivo="./Project/files/Modelos/cow.obj";
+		archivo_textura="./Project/files/Texturas/cow.jpg";
 	}else if(Modelo==17){
-		archivo="./files/Modelos/bench.obj";
-		archivo_textura="./files/Texturas/bench.jpg";
+		archivo="./Project/files/Modelos/bench.obj";
+		archivo_textura="./Project/files/Texturas/bench.jpg";
 	}else if(Modelo==18){
-		archivo="./files/Modelos/r2d2.obj";
-		archivo_textura="./files/Texturas/r2d2.tga";
+		archivo="./Project/files/Modelos/r2d2.obj";
+		archivo_textura="./Project/files/Texturas/r2d2.tga";
 	}else if(Modelo==19){
-		archivo="./files/Modelos/box.obj";
-		archivo_textura="./files/Texturas/box.jpg";
+		archivo="./Project/files/Modelos/box.obj";
+		archivo_textura="./Project/files/Texturas/box.jpg";
 	}else if(Modelo==20){
-		archivo="./files/Modelos/tabla.obj";
-		archivo_textura="./files/Texturas/tabla.jpg";
+		archivo="./Project/files/Modelos/tabla.obj";
+		archivo_textura="./Project/files/Texturas/tabla.jpg";
 	}else if(Modelo==21){
-		archivo="./files/Modelos/Wheatley.obj";
-		archivo_textura="./files/Texturas/Wheatley.jpg";
+		archivo="./Project/files/Modelos/Wheatley.obj";
+		archivo_textura="./Project/files/Texturas/Wheatley.jpg";
 	}else if(Modelo==22) {
-		archivo="./files/Modelos/refraccion.obj";
-		texture[Modelo].Init("./files/Texturas/Skybox/");
-		texture[Modelo].cargarMapaCubico("files/Texturas/Skybox/right.jpg","files/Texturas/Skybox/left.jpg",
-				"files/Texturas/Skybox/top.jpg","files/Texturas/Skybox/bottom.jpg",
-				"files/Texturas/Skybox/front.jpg","files/Texturas/Skybox/back.jpg");
+		archivo="./Project/files/Modelos/refraccion2.obj";
+		texture[Modelo].Init("./Project/files/Texturas/Skybox/");
+		texture[Modelo].cargarMapaCubico("./Project/files/Texturas/Skybox/right.jpg","./Project/files/Texturas/Skybox/left.jpg",
+				"./Project/files/Texturas/Skybox/top.jpg","./Project/files/Texturas/Skybox/bottom.jpg",
+				"./Project/files/Texturas/Skybox/front.jpg","./Project/files/Texturas/Skybox/back.jpg");
 	}
 	if(Modelo<=OBJECT-1) {
 		CargarModelo(Modelo,archivo);
@@ -611,7 +611,7 @@ void init(){
 	Escenario = glGenLists(OBJECT);
 	xCol=0, zCol=0;
 	sh.initShader();
-	sh.createShader("./files/Shader/refraction.vert","./files/Shader/refraction.frag","Refraction");
+	sh.createShader("./Project/files/Shader/refraction.vert","./Project/files/Shader/refraction.frag","Refraction");
 	glEnable(GL_TEXTURE_CUBE_MAP_ARB);
 
 	iluminacion = true;
