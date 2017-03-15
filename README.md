@@ -27,14 +27,17 @@ And the dll should be include on the root folder,
 
 Here are some image of the application:
 
-this image show the use of volume and planar shadows
-![alt tag] (./Screenshot/Shadow.jpg)
+this image shows the use of volume and planar shadows
 
-this image show the use of reflection (all floor has the reflection active)
-![alt tag] (./Screenshot/Reflection.jpg)
+![alt tag](./Screenshot/Shadow.jpg)
 
-thios image show the use of refraction (only refract skybox in the ball in the air)
-![alt tag] (./Screenshot/RefractionSkybox.jpg)
+this image shows the use of reflection (all floor has the reflection active)
+
+![alt tag](./Screenshot/Reflection.jpg)
+
+this image shows the use of refraction (it only shows the refraction of the skybox in the ball)
+
+![alt tag](./Screenshot/RefractionSkybox.jpg)
 
 
 
