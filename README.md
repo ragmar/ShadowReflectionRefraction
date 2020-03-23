@@ -1,5 +1,5 @@
 # Shadow - Reflection - Refraction
-This is a project created by Alejandro Sans (sansalejandro@gmail.com) and Víctor Felipe for a Computer Graphic course (Universidad Central de Venezuela). 
+This is a project created by Alejandro Sans (sansalejandro@gmail.com) and Víctor Felipe (vjfn1990@gmail.com) for a Computer Graphic course (Universidad Central de Venezuela). 
 
 This project shows the use of reflection, refraction and shadows in a scene using Glut.
 
